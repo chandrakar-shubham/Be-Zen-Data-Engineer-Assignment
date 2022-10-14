@@ -65,27 +65,27 @@ with charts and visualisation
 
 
 10. Seperating data frame consisting of null prices in price_string columns
-(a) # creating data frame with null price_string
+(a) creating data frame with null price_string
 price_null_df= df[df['price_string'].isnull()]
 
 11. EDA on price string with NULL price_string
 
 (a)Count of Product type having null price in price_string
-#Distribution Unique product with null price
-# top 10 product with null price bar plot
+Distribution Unique product with null price
+top 10 product with null price bar plot
 
 (b) Count of category with null price in price_string column
-#Distribution Unique category with null price
-# top 10 unique category with null price bar plot
+Distribution Unique category with null price
+top 10 unique category with null price bar plot
 
 (c) Count of level 1 having null price in price_string column
-# Distribution of level 1 with null price
-# top 10 level 1 with null price
+Distribution of level 1 with null price
+top 10 level 1 with null price
 
 
 11. EDA on data frame with non null prices in prices_string column
 
-(a) # creating copy of dataframe df with alias df1
+(a) creating copy of dataframe df with alias df1
 df1 = df.copy()
 
 Note: to avoid any data distortion in original df
@@ -132,7 +132,7 @@ def only_currency_value(x):
   else:
     'Not'
     
-(f) # Changing data type of value column to float to do calculation
+(f) Changing data type of value column to float to do calculation
 
 non_null_prices_df['value']=non_null_prices_df['value'].astype("float")
 
@@ -140,34 +140,34 @@ non_null_prices_df['value']=non_null_prices_df['value'].astype("float")
 
 (g) Count of products with non null prices in each unique product type
 
-#distribution plot of count of product with non null prices
-# top 10 product type with highest count of non_null prices
-# Visualisation top 10 product type with highest count bar plot
+distribution plot of count of product with non null prices
+top 10 product type with highest count of non_null prices
+Visualisation top 10 product type with highest count bar plot
 
 (h) Avg price of products with prices in each Product Type
-#distribution plot of avg_price with respect to product type
-# top 10 product type with highest avg price
-# Visualisation top 10 product type with highest avg price bar plot
+distribution plot of avg_price with respect to product type
+top 10 product type with highest avg price
+Visualisation top 10 product type with highest avg price bar plot
 
 (i) Count of unique category with non null prices
-#distribution plot of count of non null prices with respect to category
-# top 10 category_count with highest count of non null prices
-# Visualisation top 10 category_count with highest count of non null prices
+distribution plot of count of non null prices with respect to category
+top 10 category_count with highest count of non null prices
+Visualisation top 10 category_count with highest count of non null prices
 
 (j) Unique Categories with average price of product
-#distribution plot of avg_price with respect to category
-# top 10 category with highest avg price
-# Visualisation top 10 cateory with highest avg price
+distribution plot of avg_price with respect to category
+top 10 category with highest avg price
+Visualisation top 10 cateory with highest avg price
 
 (k) Count of level 1 with non null prices
-#distribution plot of level 1 with respect to count
-# top 10 level1 count with highest count of non null prices
-# Visualisation top 10 category_count with highest count of non null prices
+distribution plot of level 1 with respect to count
+top 10 level1 count with highest count of non null prices
+Visualisation top 10 category_count with highest count of non null prices
 
 (j) Unique level1 with average price of product
-#distribution plot of avg_price with respect to level_1
-# top 10 level 1 with highest avg value in level_1
-# Visualisation top 10 level_1 with highest avg price
+distribution plot of avg_price with respect to level_1
+top 10 level 1 with highest avg value in level_1
+Visualisation top 10 level_1 with highest avg price
 
 12. Final dataframe combined and cleaned is created as "df_optimised"
 This dataframe is combination of price_null_df,non_null_prices_df.
