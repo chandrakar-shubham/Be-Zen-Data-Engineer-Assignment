@@ -70,17 +70,17 @@ price_null_df= df[df['price_string'].isnull()]
 
 11. EDA on price string with NULL price_string
 
-(a)Count of Product type having null price in price_string:
+# Count of Product type having null price in price_string:
 
 -Distribution Unique product with null price,
 
 -top 10 product with null price bar plot
 
-(b)Count of category with null price in price_string column:
+# Count of category with null price in price_string column:
 
-Distribution Unique category with null price
+-Distribution Unique category with null price
 
-top 10 unique category with null price bar plot
+-top 10 unique category with null price bar plot
 
 (c)Count of level 1 having null price in price_string column :
  
@@ -89,7 +89,7 @@ top 10 unique category with null price bar plot
  top 10 level 1 with null price
 
 
-11. EDA on data frame with non null prices in prices_string column
+12. EDA on data frame with non null prices in prices_string column
 
 (a) creating copy of dataframe df with alias df1
 df1 = df.copy()
