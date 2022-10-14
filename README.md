@@ -138,13 +138,13 @@ non_null_prices_df['value']=non_null_prices_df['value'].astype("float")
 
 (f) Distribution of all prices is visualised
 
-(g) #Count of products with non null prices in each unique product type
+# Count of products with non null prices in each unique product type
 
-distribution plot of count of product with non null prices
+-distribution plot of count of product with non null prices
 -top 10 product type with highest count of non_null prices
 -Visualisation top 10 product type with highest count bar plot
 
-(h) Avg price of products with prices in each Product Type
+# Avg price of products with prices in each Product Type
 -distribution plot of avg_price with respect to product type
 -top 10 product type with highest avg price
 -Visualisation top 10 product type with highest avg price bar plot
