@@ -57,14 +57,18 @@ Csv file will now be extracted.
 8. Checking price_string column
 (a) Conversion of column data type to string
 
-9 . EDA on price string with NULL value and comparision with
+# EDA on price string with NULL value and comparision with
+
 (a) product type vs null price_sring
+
 (b) category vs null price_sring
+
 (c) level 1 vs null price_sring
-with charts and visualisation 
+    
+    with charts and visualisation 
 
 
-10. Seperating data frame consisting of null prices in price_string columns
+9. Seperating data frame consisting of null prices in price_string columns
 (a) creating data frame with null price_string
 price_null_df= df[df['price_string'].isnull()]
 
